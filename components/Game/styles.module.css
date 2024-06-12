@@ -1,0 +1,55 @@
+.gameWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: var(--light-grey);
+  position: relative;
+}
+.prizesSide {
+  background-color: var(--prizeBackground);
+  padding-top: 5%;
+  position: relative;
+}
+.quizSide {
+  background-color: var(--light-grey);
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.burger {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  display: none;
+  background-color: var(--light-grey);
+}
+
+@media only screen and (max-width: 805px) {
+  .burger {
+    display: block;
+  }
+  .prizesSide {
+    background-color: var(--light-grey);
+    position: fixed;
+    left: -100%;
+    transition: left 0.3s ease-out;
+  }
+  .quizSide {
+    padding-top: 25%;
+    padding-left: 0;
+    width: 100%;
+  }
+}
+
+.toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition: left 0.3s ease-out;
+}

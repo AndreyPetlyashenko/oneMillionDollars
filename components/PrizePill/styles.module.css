@@ -1,0 +1,48 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.content {
+  position: absolute;
+  top: 19%;
+  left: 42%;
+}
+
+.appendix {
+  width: 36px;
+  height: 1.5px;
+  border-top: 1px solid var(--beaten);
+}
+
+.wrapper:hover .appendix {
+  border-color: var(--carrot);
+}
+
+.wrapper:hover path {
+  stroke: var(--carrot);
+}
+
+.beaten {
+  color: var(--beaten);
+}
+.pill {
+  display: block;
+  width: 100%;
+  max-height: 60px;
+}
+
+@media only screen and (max-width: 805px) {
+  .wrapper {
+    justify-content: space-around;
+  }
+
+  .pill {
+    height: 100%;
+  }
+  .content {
+    position: absolute;
+    top: 30%;
+    left: 42%;
+  }
+}

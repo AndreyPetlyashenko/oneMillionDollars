@@ -1,0 +1,54 @@
+.finishContainer h1 {
+  text-align: left;
+  font-weight: 600;
+}
+
+.finishContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.totalScore {
+  color: grey;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.earnedMoney {
+  color: #1c1c21;
+  font-size: 32px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  min-width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .finishContainer h1 {
+    text-align: center;
+  }
+
+  .totalScore {
+    text-align: center;
+  }
+
+  .finishContainer {
+    flex-direction: column;
+  }
+  .content {
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .navigationBlock {
+    padding-right: 30px;
+  }
+}

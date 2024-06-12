@@ -1,0 +1,25 @@
+.button {
+  width: 100%;
+  max-width: 296px;
+  max-height: 64px;
+  background-color: var(--carrot);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.button .title {
+  font-size: 32px;
+}
+@media only screen and (max-width: 768px) {
+  .button {
+    max-width: none;
+  }
+  .wideButton {
+    width: 100%;
+    margin-top: auto;
+    padding: 5%;
+  }
+}

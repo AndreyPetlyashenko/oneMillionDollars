@@ -1,0 +1,8 @@
+.title {
+  font-size: 32px;
+}
+@media only screen and (max-width: 805px) {
+  .title {
+    text-align: center;
+  }
+}

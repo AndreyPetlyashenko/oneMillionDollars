@@ -1,0 +1,106 @@
+{
+  "quizData": [
+    {
+      "question": "What was my parrot name?",
+      "variants": ["Jupiter", "Mars", "Saturn", "I didn`t have parrot"],
+      "answer": 0,
+      "money": 1000
+    },
+    {
+      "question": "How big is my desire to code?",
+      "variants": [
+        "pretty big",
+        "tiny",
+        "enough to complete the test",
+        "bigger then you can even imagine"
+      ],
+      "answer": [0, 1, 2, 3],
+      "money": 5000
+    },
+    {
+      "question": "How often do you have a walk this time?",
+      "variants": ["often", "once a week", "twice a week", "walk? why?"],
+      "answer": [0, 1, 2, 3],
+      "money": 10000
+    },
+    {
+      "question": "If you win the game you would buy yourself a ...",
+      "variants": [
+        "Drink",
+        "Smoke ",
+        "Car",
+        "I don`t wanna win, Im fully packed"
+      ],
+      "answer": [0, 1, 2, 3],
+      "money": 20000
+    },
+    {
+      "question": "What is a difference between Mind and Wisdom?",
+      "variants": [
+        "There is no difference",
+        "I don`t care",
+        "What was the question?",
+        "Wisdom = Mind * Experience"
+      ],
+      "answer": [0, 1, 2, 3],
+      "money": 50000
+    },
+    {
+      "question": "What song is/was playing from my laptop?",
+      "variants": [
+        "Queen - Nevermore",
+        "Rolling Stones - Gimme Shelter",
+        "It`s a silence here",
+        "In Flames: Only for the week"
+      ],
+      "answer": [0, 1, 2, 3],
+      "money": 100000
+    },
+    {
+      "question": "What is a greatest Tarantion movie?",
+      "variants": ["Mad dogs", "Pulp Fiction", "Home alone 8", "Django"],
+      "answer": [0, 1, 2, 3],
+      "money": 200000
+    },
+    {
+      "question": "Have you updated data about yourself for Military registration and enlistment office",
+      "variants": [
+        "yes, I have",
+        "no, I have not",
+        "it is not of your business",
+        "it has been updated since the day I was born"
+      ],
+      "answer": [0, 1, 2, 3],
+      "money": 300000
+    },
+    {
+      "question": "Who did kill the cheerleader?",
+      "variants": ["you did", "he did", "She is still alive", "they did"],
+      "answer": [0, 1, 2, 3],
+      "money": 500000
+    },
+    {
+      "question": "Who was Nemo?",
+      "variants": ["Fish", "Ma Fish", "English", "Submarine"],
+      "answer": [0, 1, 2, 3],
+      "money": 600000
+    },
+    {
+      "question": "How long did I work on the project?",
+      "variants": ["3 days", "3 days", "3 days", "3 days"],
+      "answer": [0, 1, 2, 3],
+      "money": 700000
+    },
+    {
+      "question": "What is my favorite dish?",
+      "variants": [
+        "Smashed potato",
+        "Kotletki",
+        "Sun light",
+        "The dish you don`t have to cook"
+      ],
+      "answer": [0, 1, 2, 3],
+      "money": 1000000
+    }
+  ]
+}
