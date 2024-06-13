@@ -14,7 +14,6 @@ export const VariantPill: FC<Props> = ({
   const checkAnswer = async () => {
     await warmIntrigue(2000, isCorrect, setPending, setResult);
   };
-  //TO-DO rewrite with enum color value as a status, remove getStatus()
   const status = getStatus(result, pending, isCorrect);
 
   return (
