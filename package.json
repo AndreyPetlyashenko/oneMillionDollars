@@ -9,7 +9,14 @@
     "lint": "next lint"
   },
   "lint-staged": {
-    "*.js": "eslint --fix"
+    "*.tsx": [
+      "prettier --list-different",
+      "eslint --fix"
+    ],
+    "*.ts": [
+      "prettier --list-different",
+      "eslint --fix"
+    ]
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
